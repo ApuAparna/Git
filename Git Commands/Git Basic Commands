@@ -1,0 +1,56 @@
+# Initializing git ( Create a empty repository):
+
+git init   
+
+# Check the status of the git:
+
+git Status   
+
+# Adding changes from working directory to staging area:
+
+git add (file name)    # Add a particular file. 
+
+git add --all          # Add all file using --all.
+
+git add -A             # Same as above commands its just a short form insteas of --all to -A
+
+git add .              # Using dot symbol also we call add all files.
+
+# Adding Changes from Staging Area To Local Repository :
+
+git commit -m "some message"  # -m denotes for modified files
+
+# To see what are the changes happend in github through our local repository:
+
+git fetch origin 
+
+# To see the difference of two version file:
+
+git diff (commit id of one) (commit id of two)
+
+# To show all the tracked files:
+
+git ls-files
+--------------------------------------------------------------------------
+# HELP COMMAND :
+---------------------------------------------------------------------------
+git help --all      #To see all commands
+
+git commit -help    # To see specific command for example: git log -help
+----------------------------------------------------------------------------
+#SHOW COMMANDS:
+---------------------
+# To see the last commit full details like date, author etc.
+
+git show
+
+# To see the full details based on the commits with content:
+
+git show (commit id)
+------------------------------------------------------------------------------------
+# To set the username and email id :
+
+git config -global user.name "aaaa"
+
+git config -global user.email "xyz"
+
