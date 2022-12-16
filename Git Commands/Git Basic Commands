@@ -54,3 +54,6 @@ git config -global user.name "aaaa"
 
 git config -global user.email "xyz"
 
+# Don't want to commit but want to save a file :
+
+git stash 
