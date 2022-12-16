@@ -1,0 +1,17 @@
+# To view the history of commits for a repository:
+
+git log 
+
+# To show the log in oneline:
+
+git log --oneline
+
+# To See the last two commits:
+
+git log --oneline -2
+
+#To see the log for a particular branch in oneline :
+
+git log --oneline (Branch Name)
+
+
