@@ -1,0 +1,27 @@
+# To clone the repository from the git :
+
+git clone (Repository URL) 
+
+# To connect local repository and remote repository :
+
+git remote add origin (Repo URL) 
+
+# To check whether remote repository is linked to the local repository :
+
+git remove -v 
+
+# To change the remote repository one to another remote repository in local :
+
+git remote set-url origin (Repository URL)
+
+# To remove the remote repository from the local repository :
+
+git remote rm origin
+
+# To remove directory in local repository :
+
+git rm -r --interactive=never (Directory Name) 
+
+# To delete the remote branch :
+
+git push origin --delete (branch name)
