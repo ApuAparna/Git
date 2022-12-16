@@ -1,0 +1,23 @@
+# To Create a new Branch :
+
+git branch (New Branch Name)
+
+# To see what are the branches available in the repository:
+
+git branch
+
+# To Create a new branch and move to the newly created branch:
+
+git checkout -b (New Branch Name)
+
+# To delete a branch:
+
+git branch -d (Branch Name to merge)    # -d denotes for delete
+
+# To merge the two branch:
+
+git merge (branch name)       
+
+#Move from one branch to another branch :
+
+git checkout (Branch name to move)
