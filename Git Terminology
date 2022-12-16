@@ -1,0 +1,51 @@
+Repositroy:
+------------------
+
+    ----> Repository is a storage space for our project.
+		
+Clone:
+---------
+
+    ----> Copies an existing git repo from a remote source.
+   
+	  ----> Gets all files and history to local device.
+    
+		----> Create a remote connectioncalled “origin” that points back to the original repository. 
+
+Add and Commit:
+----------------
+    
+		----> Git add used to add changes in working directory to staging   area.Git will include these changes in next commit.
+    
+		----> Git commit is used to commit the stages snapshot to history.
+
+Push:
+-----------
+	 
+		----> Git push is used to transfer commits from local repo to remote repo.
+
+Branch:
+----------
+
+    ----> A branch is an isolated copy of our working environment and history.
+    
+		----> Commits are recorded in the history for the current branch.
+    
+		----> Default branch is master.
+
+Fetch:
+--------
+    
+		----> It show all the changes up to date.
+    
+		----> For example : If we working in a team. We login on next day if we want to know what are the changes happend till now we can use this command.
+
+Merge:
+---------
+    
+		----> Combine current branch with a specific branch.
+
+Pull:
+-------
+
+    ----> git fetch + git merge= git pull.
