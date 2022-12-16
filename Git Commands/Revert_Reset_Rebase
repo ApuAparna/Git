@@ -1,0 +1,11 @@
+# REVERT:
+
+# To Undo the particular commit operation with the commit message:
+
+               git revert (commit id)
+
+# RESET:
+
+# It used to unstage the file from the staging area to working area:
+
+               git reset (filename) 
