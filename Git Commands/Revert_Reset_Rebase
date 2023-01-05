@@ -1,11 +1,13 @@
 # REVERT:
 
-# To Undo the particular commit operation with the commit message:
+# To Undo the latest commit operation with the commit message:
 
                git revert (commit id)
 
 # RESET:
 
-# It used to unstage the file from the staging area to working area:
+# It used to undo multiple commits:
+# git reset --soft ( only delete commits id)
+# git reset --hard (delete with contents and commits id)
 
                git reset (filename) 
