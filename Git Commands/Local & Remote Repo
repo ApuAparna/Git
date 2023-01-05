@@ -8,7 +8,7 @@ git remote add origin (Repo URL)
 
 # To check whether remote repository is linked to the local repository :
 
-git remove -v 
+git remote -v 
 
 # To change the remote repository one to another remote repository in local :
 
