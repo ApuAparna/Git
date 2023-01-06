@@ -2,7 +2,7 @@
 
 # To Undo the latest commit operation with the commit message:
 
-               git revert (commit id)
+               git revert (last commit id)
 
 # RESET:
 
@@ -10,4 +10,4 @@
 # git reset --soft ( only delete commits id)
 # git reset --hard (delete with contents and commits id)
 
-               git reset (filename) 
+               git reset (commit id to be last commit) 
